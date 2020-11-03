@@ -1,0 +1,68 @@
+<!--
+    
+    @{
+    newPassword = Request["newPassword"];
+    confirmPassword = Request["confirmPassword"];
+    token = Request["token"];
+    if IsPost
+    {
+        // input testing is ommitted here to save space
+        retunValue = ResetPassword(token, newPassword);
+    }
+}
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en" ng-app="APP">
+    <head>
+        <meta charset="UTF-8">
+        <title>Topaz Labs</title>
+        <link rel ="stylesheet" type = "text/css" href="login.css">
+
+    </head>
+    <body bgcolor= "#999999" >
+        <center>
+            <h1 class = "logo"></h1>
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+            <form method='GET' action="/create-account">
+            <form method='post' action='/' enctype="multipart/form-data">
+            <form autocomplete="off"    method='post' action='/' enctype="multipart/form-data">
+
+                <!-- <div class="imgcontainer">
+                    <img src="avatar.jpg" alt="Avatar" class="avatar">
+                </div> -->
+                <h1><label><b>Reset Account Password</b></label></h1>
+                <div class="container">
+
+                <label for="newPassword"><b>New Password</label></br>
+                <div style="display: table-column; width:100%;"></div>
+                <input type="password" id="newPassword" name="newPassword" title="New password" /></br>
+
+                <label><b>Confirm Password</b></label></br>
+                <input type="password" id="confirmPassword" name="confirmPassword" title="Confirm new password" />
+
+                <p class="form-actions">
+                <input type="submit" value="Change Password" title="Change password" />
+
+                <!-- ====================================================================== -->
+
+                <!-- ====================================================================== -->
+                <b><a href="https://github.com/makinwa/CloudProcessing" target="_blank" class="footer">Contact Us</a></b>
+                
+                
+               </div>
+
+                <!-- <button type="button" class="cancelbtn">Cancel</button> -->
+            </form>
+            </form>
+            </form>
+            </form>
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+        </center>
+
+    </body>
+</html>

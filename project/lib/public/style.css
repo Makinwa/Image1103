@@ -1,0 +1,89 @@
+body {
+	background: #999999;
+    background-image: url('./../scene.jpeg');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 100%;
+    margin:0px;
+    background-attachment: fixed;
+
+}
+
+html {
+    height: 100%
+}
+
+.logo {
+	text-indent: : -999999px;
+	background: url('topaz_image.jpg');
+
+	width: 258px;
+	height:143px;
+}
+
+
+form {
+		height: 260px;
+		width: 400px;
+		background-color: rgba(248, 247, 250, 0.6);
+    border: 10px solid rgba(248, 247, 250, 0.7);
+
+}
+
+.footer {
+    position: absolute;
+    /*width: 929px;*/
+    width: 100%;
+    height: 0px;
+    bottom: 0;
+    left: 0px;
+
+    background-color: #000000;
+
+    background-image: url(back.jpg);
+    text-align: center;
+    color: black;
+    /*z-index: 25;*/
+    /*float: left;*/
+}
+
+/*header shadow*/
+h1 {
+    text-shadow: 2px 2px;
+}
+
+
+/*background image animation*/
+/*html {
+
+    background-image:
+        url('word.docx'),
+        url('rhino.jpg');
+        /*url(8.jpg);*/
+    background-repeat: repeat-x;
+    background-position:
+        0 20%,
+        0 95%,
+        0 0,
+        0 100%,
+        0 0;
+    background-size:
+        2500px,
+        800px,
+        500px 200px,
+        1000px,
+        400px 260px;
+    animation: 100s para infinite linear;
+    }
+@keyframes para {
+    100% {
+        background-position:
+            -1000px 20%,
+            -800px 95%,
+            500px 0,
+            1000px 100%,
+            400px 0;
+        }
+    }*/
